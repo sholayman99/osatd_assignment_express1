@@ -1,12 +1,12 @@
-exports.read=(req,res)=>{
+exports.readBlog=(req,res)=>{
  res.send("Read Blog Api.")
 }
-exports.create=(req,res)=>{
+exports.createBlog=(req,res)=>{
  res.send("Created Blog Api.")
 }
-exports.update=(req,res)=>{
+exports.updateBlog=(req,res)=>{
  res.send("Updated Blog Api.")
 }
-exports.deletes=(req,res)=>{
+exports.deleteBlog=(req,res)=>{
  res.send("Deleted Blog Api.")
 }
