@@ -1,6 +1,6 @@
+//functions for Comment api
 
-
-exports.readComment=(req,res)=>{
+   exports.readComment=(req,res)=>{
     res.send("Read Comment Api.")
    }
    exports.createComment=(req,res)=>{

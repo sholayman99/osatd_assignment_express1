@@ -1,3 +1,6 @@
+   //functions for title api
+   
+   
    exports.readTitle=(req,res)=>{
     res.send("Read Title Api.")
    }

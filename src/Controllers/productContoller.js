@@ -1,4 +1,6 @@
-exports.readProduct=(req,res)=>{
+   //functions for product api
+   
+   exports.readProduct=(req,res)=>{
     res.send("Read Product Api.")
    }
    exports.createProduct=(req,res)=>{

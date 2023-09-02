@@ -1,4 +1,6 @@
-exports.readProfit=(req,res)=>{
+ //functions for profit api 
+  
+   exports.readProfit=(req,res)=>{
     res.send("Read Profit Api.")
    }
    exports.createProfit=(req,res)=>{

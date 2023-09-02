@@ -1,5 +1,6 @@
+//functions for message api
 
-exports.readMsg=(req,res)=>{
+   exports.readMsg=(req,res)=>{
     res.send("Read message Api.")
    }
    exports.createMsg=(req,res)=>{

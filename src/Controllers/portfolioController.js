@@ -1,4 +1,6 @@
-exports.readPortfolio=(req,res)=>{
+  //functions for portfolio api 
+   
+   exports.readPortfolio=(req,res)=>{
     res.send("Read Portfolio Api.")
    }
    exports.createPortfolio=(req,res)=>{

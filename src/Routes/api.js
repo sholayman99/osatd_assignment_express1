@@ -1,4 +1,8 @@
 const express = require("express");
+const router = express.Router()
+
+
+//importing all controllers from controllers folder.
 const { readBlog, createBlog, updateBlog, deleteBlog } = require("../Controllers/blogController");
 const { readBlogDet, createBlogDet, updateBlogDet, deleteBlogDet } = require("../Controllers/blogDetailsController");
 const { readComment, createComment, updateComment, deleteComment } = require("../Controllers/commentController");
@@ -11,7 +15,7 @@ const { readProduct, createProduct, updateProduct, deleteProduct } = require("..
 const { readPortfolio, createPortfolio, updatePortfolio, deletePortfolio } = require("../Controllers/portfolioController");
 
 
-const router = express.Router()
+
 
 //blogController routes
 router.get("/blog" , readBlog)

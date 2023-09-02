@@ -1,4 +1,6 @@
-exports.readService=(req,res)=>{
+   //functions for service api
+   
+   exports.readService=(req,res)=>{
     res.send("Read Service Api.")
    }
    exports.createService=(req,res)=>{

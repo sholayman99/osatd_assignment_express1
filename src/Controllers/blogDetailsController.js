@@ -1,4 +1,6 @@
-exports.readBlogDet=(req,res)=>{
+//functions for blog Details api
+
+   exports.readBlogDet=(req,res)=>{
     res.send("Read Blog Details.")
    };
    exports.createBlogDet=(req,res)=>{

@@ -1,3 +1,5 @@
+//functions for blog api
+
 exports.readBlog=(req,res)=>{
  res.send("Read Blog Api.")
 }

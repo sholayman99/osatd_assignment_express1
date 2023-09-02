@@ -1,4 +1,6 @@
-exports.readProject=(req,res)=>{
+   //functions for project api
+   
+   exports.readProject=(req,res)=>{
     res.send("Read Project Api.")
    }
    exports.createProject=(req,res)=>{
